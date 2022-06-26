@@ -1,0 +1,10 @@
+$color-blue: rgb(20, 20, 145);
+$color-yellow: rgb(224, 193, 14);
+
+
+.jumbotron{
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, $color-blue, $color-yellow);
+    color: white;
+}
