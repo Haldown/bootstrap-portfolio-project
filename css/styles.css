@@ -1,5 +1,17 @@
 .jumbotron {
   margin: 0;
   padding: 30px;
-  background-image: linear-gradient(to right, #141491, #e0c10e);
+  background-image: linear-gradient(to right, #141491, #165a16, #e0c10e);
   color: white; }
+
+#homeCarousel img {
+  height: 500px; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }

@@ -1,10 +1,28 @@
 $color-blue: rgb(20, 20, 145);
 $color-yellow: rgb(224, 193, 14);
-
+$color-green: rgb(22, 90, 22);
+$color-black-transparent: rgba(0, 0, 0, 0.5);
 
 .jumbotron{
     margin: 0;
     padding: 30px;
-    background-image: linear-gradient(to right, $color-blue, $color-yellow);
+    background-image: linear-gradient(to right, $color-blue, $color-green, $color-yellow);
     color: white;
+}
+
+#homeCarousel{
+    img{
+        height:500px;
+    }
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.carousel-caption{
+    background-color: $color-black-transparent;
 }
