@@ -29,5 +29,10 @@ $color-black-transparent: rgba(0, 0, 0, 0.5);
 
 .menue-item{
     border: 1px solid black;
-    margin: 10px;
+    margin-bottom: 10px;
+    img{
+        height: 100px;
+        width: 100px;
+        margin: 3px;
+    }
 }
