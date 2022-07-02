@@ -33,6 +33,12 @@ $color-black-transparent: rgba(0, 0, 0, 0.5);
     img{
         height: 100px;
         width: 100px;
-        margin: 3px;
+        margin: 10px;
     }
+}
+
+.site-footer{
+    background-image: linear-gradient(to right, $color-blue, $color-green, $color-yellow);
+    padding: 20px 0;
+    color: white;
 }

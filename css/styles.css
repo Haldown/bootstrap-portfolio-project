@@ -22,4 +22,9 @@
   .menue-item img {
     height: 100px;
     width: 100px;
-    margin: 3px; }
+    margin: 10px; }
+
+.site-footer {
+  background-image: linear-gradient(to right, #141491, #165a16, #e0c10e);
+  padding: 20px 0;
+  color: white; }
